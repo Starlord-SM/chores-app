@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy policy
 
-_Last updated: 17 October 2026_
+_Last updated: 13 November 2026_
 
 ## The short version
 
@@ -27,11 +27,13 @@ Questions about privacy: chores@bantersmith.com
 
 **Parents**
 - Your email address, so you can sign in with a code we email you. If you choose to use a password, it is stored only in scrambled (hashed) form.
+- If you use Sign in with Apple: the email address Apple gives us (which can be one of Apple's private relay addresses, if you choose "Hide My Email"), and a token from Apple that we keep only so we can tell Apple to disconnect Chores if you delete your account.
 - The name and picture you choose, shown to your family.
 
 **Children (entered by a parent)**
 - A nickname (a real name isn't needed), a picture chosen from the app's icons, and a colour.
 - Settings a parent chooses, such as how many chores a day, weekly pocket money and reward prices.
+- If a parent sets a Child Mode PIN for a child, we keep it only in scrambled (hashed) form, and only parents' phones can read that.
 
 **Your family's chores and rewards**
 - Your family name and time zone; the chores, rewards and days off you set up; which child each chore is given to on which day, and when it's ticked off; points, pocket money and rewards; and reward ideas a child suggests. Reasons for days off and notes on pocket money are optional and only seen by your family.
@@ -42,6 +44,10 @@ Questions about privacy: chores@bantersmith.com
 **Children's phones**
 - When a child's phone is connected, we create an anonymous account for that phone. It has no email, name or phone number. We also store the type of device (for example "iPhone").
 
+**Notifications (only if you allow them)**
+- The address Apple gives your phone for notifications (a "device token"), which account it belongs to, and your choices: whether to tell you when a child finishes, and the time of an evening summary or a child's reminder. We use it only to send the notifications you asked for, and delete it when you sign out or delete your account, or if the phone hasn't opened Chores for 60 days.
+- A notification says which child has finished, or how many chores each child has ticked off. It never includes chore titles.
+
 **Bug reports and ideas (only if you send one)**
 - What you write, and your email address only if you turn on "You can email me back".
 - If "Include diagnostics" is on: the app version, device model (for example "iPhone16,2"), iOS version, language, time offset from UTC, display settings, and a log of recent actions in the app (such as which screens were opened and whether requests to our server worked). The log never includes names, email addresses, chore or reward titles, or anything typed. IDs in it are replaced with random codes that can't be linked back to your family. You can see exactly what is included before you send it.
@@ -49,7 +55,7 @@ Questions about privacy: chores@bantersmith.com
 **What stays on your phone**
 - Face ID is handled by iOS. We never see your face or fingerprint data.
 - The camera is used only to scan the code that connects a child's phone. Pictures aren't saved or sent.
-- Daily reminders are scheduled on the child's phone. Nothing about them is sent to us.
+- If a phone doesn't allow notifications, nothing about notifications is sent to us.
 - The diagnostics log is kept on the phone for up to 3 days and is only sent if you send a report.
 
 **What we don't collect:** no location, contacts, photos, birthdays, advertising identifiers, analytics or tracking. There are no adverts and no third-party analytics in the app.
@@ -67,7 +73,7 @@ We use a small number of service providers, who may only use your information to
 - **Supabase** stores the app's data and runs sign-in. Data is held in London, UK. Supabase, Inc. is based in the United States, so we rely on the UK International Data Transfer Addendum and its data processing terms to protect any access from outside the UK.
 - **ElevenLabs** reads chores aloud when "Read chores aloud" is on. We send it only the chore's title (never who it's for), once per title; the audio is kept with the chore and deleted when the chore is. It is based in the United States and protected the same way.
 - **Resend** delivers sign-in code emails and the bug reports you choose to send. It is based in the United States and protected the same way.
-- **Apple** provides the App Store and takes subscription payments, as well as Face ID and (if you use it) Sign in with Apple, under Apple's own privacy policy. We ask Apple's App Store Server only about your family's subscription.
+- **Apple** provides the App Store and takes subscription payments, as well as Face ID and (if you use it) Sign in with Apple, under Apple's own privacy policy. We ask Apple's App Store Server only about your family's subscription. Notifications are delivered by Apple's push notification service: we send it the notification and your phone's device token.
 
 We never sell your information or share it for marketing. We will only share it with others if the law requires us to.
 

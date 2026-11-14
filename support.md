@@ -8,7 +8,7 @@ permalink: /support/
 ## Getting started
 
 **How do I sign in?**
-Enter your email address and we'll email you a 6-digit code. The same step creates your account the first time. There's no password to remember.
+Tap **Continue with Apple**, or enter your email address and we'll email you a 6-digit code. Either way, the same step creates your account the first time. There's no password to remember.
 
 **How does a second parent join?**
 Go to **Family → Invite a parent** and share the code. They install Chores, sign in with their own email, choose **Join my partner's family** and enter the code within 7 days.
@@ -23,6 +23,12 @@ On your phone, go to **Family →** your child **→ ⚙︎ → Set up …'s pho
 
 **My child doesn't have a phone.**
 Use **Child Mode**: go to **Family → Start Child Mode on this phone** and hand it over. Your child taps their picture and ticks off their chores. Use Face ID to get back to the grown-up side.
+
+**Can I stop my children ticking each other's chores in Child Mode?**
+Yes. Go to **Family →** your child **→ ⚙︎ → Set a PIN** and choose four numbers. In Child Mode they type it after tapping their picture, and again whenever Chores has been closed. A child's own phone never asks for it. If they forget it, change it in the same place.
+
+**Can I be told when the chores are done?**
+Yes. Go to **Family → Notifications** and turn them on. You can hear as soon as a child ticks off their last chore of the day, and get an evening summary at a time you choose. Each parent chooses for their own phone. On a child's phone, the daily reminder (in its settings) only arrives if chores are left.
 
 **What happens with no signal?**
 Ticks are saved on the phone and sent as soon as it's back online.
